@@ -27,6 +27,11 @@ p{
   font-size: 1.667vw;
 }
 
+h1{
+  margin:0px;
+  padding:0px;
+}
+
 /*End Universal Properties*/
 
 /*NavBar Properties*/
@@ -114,6 +119,8 @@ h6 {
   font-size: 4.444vw;
   font-style: normal;
   font-weight: normal;
+  word-spacing: -.1em;
+  margin-top: 2.5%;
 }
 
 .teamheader{
@@ -493,6 +500,14 @@ ul{
   padding: 5% 0%;
 }
 
+.upDiv{
+  padding-top: 40px;
+}
+
+.downDiv{
+  padding-bottom: 30px;
+}
+
 /*End Content Properties*/
 
 
@@ -542,8 +557,10 @@ ul{
 .section-dark{
   background: linear-gradient(162.2deg, #111112 25.07%, #121B43 82.81%);
   color: white;
-  padding: 2.5% 20%;
+  padding: 2.5% 18.5%;
   overflow: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .doubledark{
