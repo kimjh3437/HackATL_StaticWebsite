@@ -123,6 +123,13 @@ h6 {
   margin-top: 2.5%;
 }
 
+.mainheader{
+  background: #121B43;
+  color: white;
+  padding: 2.5% 18.5%;
+  overflow: auto;
+}
+
 .teamheader{
   font-size:3vw;
 }
