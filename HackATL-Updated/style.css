@@ -92,7 +92,29 @@ h6 {
 }
 /*End Navbar Properties*/
 
+/*Foreground Decor Images*/
+.side-decor{
+  overflow: hidden;
+}
 
+.left{
+  z-index: 1;
+  position: fixed;
+  width: 9.5vw;
+  height: auto;
+  left: -3.819vw;
+  top: 12.748vh;
+}
+
+.right{
+  z-index: 1;
+  position: fixed;
+  width: 8.681vw;
+  height: auto;
+  left: 95.069vw;
+  top: 10.34vh;
+}
+/*End Foreground Decor Images*/
 
 /*Banner Images*/
 .herobanner{
@@ -348,13 +370,14 @@ h6 {
   font-size: 3vw;
 }
 
-.social a:hover{
-  text-decoration: underline;
-}
-
 .social{
-  font-size: 2.5vw;
-  color: #15848e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  margin: 10%;
 }
 
 .historytext{
