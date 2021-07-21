@@ -406,56 +406,39 @@ h6 {
 
 /*Content Elements*/
 .button{
-  background-color: black;
-  color: white;
-  width: 50%;
-  padding: 0% 2% 0% 1%;
-  margin: 2% 23%;
-  border: 2px solid;
-  border-color: white;
-  font-size: 1.5vw;
+  position: relative;
+  width: 33.628vw;
+  height: auto;
+  margin: 3vw auto;
 }
 
-.button:hover{
-  background-color: white;
-  color: black;
-  transition: .5s;
+.button-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  font-size: 1.667vw;
+  text-align: center;
+  margin: 0;
 }
 
-.buttons2{
-  background-color: black;
-  color: white;
-  width: 50%;
-  margin: 4% 25%;
-  border: 2px solid;
-  border-color: white;
-  float: left;
-  font-size: 1.5vw;
+.button-text:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: linear-gradient(to right, #EBBF32 40%, #BD862B 100%);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
 
-.buttons2:hover{
-  background-color: white;
-  color: black;
-  transition: .5s;
-}
-
-.buttons3{
-  background-color: white;
-  color: black;
-  width: 50%;
-  margin: 5% 25%;
-  border: 2px solid;
-  border-color: white;
-  float: left;
-  font-size: 2vw;
-  padding: 2% 2% 2% 1%;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.buttons3:hover{
-  background-color: black;
-  color: white;
-  transition: .5s;
+.button-text:hover:after{
+  width: 100%;
+  left: 0;
 }
 
 .row{
@@ -569,14 +552,18 @@ ul{
 }
 
 .link{
-  text-decoration-line: underline;
-  background: linear-gradient(to right, #EBBF32 40%, #BD862B 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background:
+    linear-gradient(to right, white, white),
+    linear-gradient(to right, #EBBF32 40%, #BD862B 100%);;
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
 
-.link:hover{
-  font-style: italic;
+.link:hover,
+.link:focus {
+  background-size: 0 0.1em, 100% 0.1em;
 }
 /*End Footer Properties*/
 
@@ -763,8 +750,8 @@ table h2{
       font-size: 4vw;
   }
 
-  .button, .buttons2, .buttons3{
-      font-size: 3vw;
+  .button{
+      font-size: 1.667vw;
   }
 
   .footer h6{
