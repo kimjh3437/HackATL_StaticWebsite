@@ -244,7 +244,7 @@ h6 {
   background-color: #121212;
 }
 
-.hackatl2013,.hackatl2014,.hackatl2015,.hackatl2016,.hackatl2017,.hackatl2018,.hackatl2019{
+.hackatl2013,.hackatl2014,.hackatl2015,.hackatl2016,.hackatl2017,.hackatl2018,.hackatl2019,.hackatl2020,.hackatl2021{
   position: relative;
   background-position: 50% 0;
   background-size: cover;
@@ -270,49 +270,63 @@ h6 {
 }
 
 .hackatl2013{
-  background-image: url('images/hackatl2013.png');
+  background-image: url('images/2013Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2014{
-  background-image: url('images/hackatl2014.png');
+  background-image: url('images/2014Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2015{
-  background-image: url('images/hackatl2014.png');
+  background-image: url('images/2014Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2016{
-  background-image: url('images/hackatl2016.png');
+  background-image: url('images/2016Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2017{
-  background-image: url('images/hackatl2017.png');
+  background-image: url('images/2017Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2018{
-  background-image: url('images/hackatl2018.png');
+  background-image: url('images/2018Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2019{
-  background-image: url('images/hackatl2019.png');
+  background-image: url('images/2019Logo.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.hackatl2020{
+  background-image: url('images/2020Logo.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.hackatl2021{
+  background-image: url('images/2021Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
@@ -863,7 +877,7 @@ table h2{
       font-size: 3vw;
   }
 
-  #hackATLLeadership, #corporate, #design, #finance, #iq, #marketing, #membership, #programming, #tech, #presidents, #vp, .pimg1, .pimg2, .hackatl2013,.hackatl2014,.hackatl2015,.hackatl2016,.hackatl2017,.hackatl2018,.hackatl2019{
+  #hackATLLeadership, #corporate, #design, #finance, #iq, #marketing, #membership, #programming, #tech, #presidents, #vp, .pimg1, .pimg2, .hackatl2013,.hackatl2014,.hackatl2015,.hackatl2016,.hackatl2017,.hackatl2018,.hackatl2019,.hackatl2020,.hackatl2021{
   background-attachment: local;
 }
 
