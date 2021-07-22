@@ -347,110 +347,99 @@ h6 {
 }
 
 .teamimage{
-  position: relative;
   background-position: 50% 0;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 70%;
+  min-height: 80.04%;
+  background-color: #111112;
 }
 
 #hackATLLeadership{
-  background-image: url('images/hackATLLeadership.jpg');
+  background-image: url('images/hackATLLeadership.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #corporate{
-  background-image: url('images/corporate.jpg');
+  background-image: url('images/corporate.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #design{
-  background-image: url('images/design.jpg');
+  background-image: url('images/design.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #finance{
-  background-image: url('images/finance.jpg');
+  background-image: url('images/finance.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #iq{
-  background-image: url('images/iq.jpg');
+  background-image: url('images/iq.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #marketing{
-  background-image: url('images/marketing.jpg');
+  background-image: url('images/marketing.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #membership{
-  background-image: url('images/membership.jpg');
+  background-image: url('images/membership.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #tech{
-  background-image: url('images/tech.jpg');
+  background-image: url('images/tech.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #programming{
-  background-image: url('images/programming.jpg');
+  background-image: url('images/programming.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #presidents{
-  background-image: url('images/presidents.jpg');
+  background-image: url('images/presidents.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 
 #vp{
-  background-image: url('images/vp.jpg');
+  background-image: url('images/vp.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  background-color: #121212;
 }
 /*End Banner Images*/
 
