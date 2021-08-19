@@ -224,6 +224,8 @@ h6 {
 
 .mainheader{
   background: #121B43;
+  background-image:url('images/starrybackground.gif');
+  background-repeat:repeat;
   color: white;
   padding: 2.5% 18.5%;
   overflow: auto;
