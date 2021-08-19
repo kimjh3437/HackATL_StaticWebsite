@@ -83,12 +83,6 @@ h1{
   display: none;
 }
 
-.quote h2{
-  display: block;
-    font-size: 2.5vw;
-    font-weight: bold;
-}
-
 h6 {
     display: block;
     font-size: 1vw;
@@ -112,7 +106,7 @@ h6 {
   width: 9.5vw;
   height: auto;
   left: -3.819vw;
-  top: 12.748vh;
+  top: 6.250vw;
 }
 
 .right{
@@ -121,7 +115,7 @@ h6 {
   width: 8.681vw;
   height: auto;
   left: 95.069vw;
-  top: 10.34vh;
+  top: 5.069vw;
 }
 /*End Foreground Decor Images*/
 
@@ -159,7 +153,7 @@ h6 {
     transform: rotate(0deg);
   }
   100%{
-    transform: rotate(12deg) translate(-3vw, -30vh) scale(0.4, 1.3);
+    transform: rotate(12deg) translate(-3vw, -14.708vw) scale(0.4, 1.3);
   }
 }
 
@@ -177,7 +171,7 @@ h6 {
     transform: rotate(0deg);
   }
   100%{
-    transform: rotate(-12deg) translate(3vw, -30vh) scale(0.4, 1.4);
+    transform: rotate(-12deg) translate(3vw, -14.708vw) scale(0.4, 1.4);
   }
 }
 
@@ -235,7 +229,11 @@ h6 {
   overflow: auto;
 }
 
-.pimg1,.pimg2,.ambassadorhimg1{
+.topimg{
+  margin-top: 3.5vh;
+}
+
+.pimg2,.ambassadorhimg1{
   position: relative;
   background-position: 50% 0;
   background-size: cover;
@@ -253,14 +251,6 @@ h6 {
   background-color: #121212;
 }
 
-.pimg1{
-  background-image: url('images/pimage1.jpg');
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
-  min-height: 100%;
-}
-
 .pimg2{
   background-image: url('images/pimage2.jpg');
   background-repeat:no-repeat;
@@ -270,63 +260,63 @@ h6 {
 }
 
 .hackatl2013{
-  background-image: url('images/2013Logo.png');
+  background-image: url('images/our-history/2013Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2014{
-  background-image: url('images/2014Logo.png');
+  background-image: url('images/our-history/2014Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2015{
-  background-image: url('images/2014Logo.png');
+  background-image: url('images/our-history/2014Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2016{
-  background-image: url('images/2016Logo.png');
+  background-image: url('images/our-history/2016Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2017{
-  background-image: url('images/2017Logo.png');
+  background-image: url('images/our-history/2017Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2018{
-  background-image: url('images/2018Logo.png');
+  background-image: url('images/our-history/2018Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2019{
-  background-image: url('images/2019Logo.png');
+  background-image: url('images/our-history/2019Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2020{
-  background-image: url('images/2020Logo.png');
+  background-image: url('images/our-history/2020Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
 }
 
 .hackatl2021{
-  background-image: url('images/2021Logo.png');
+  background-image: url('images/our-history/2021Logo.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
@@ -355,7 +345,7 @@ h6 {
 }
 
 #hackATLLeadership{
-  background-image: url('images/hackATLLeadership.png');
+  background-image: url('images/team/hackATLLeadership.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -363,7 +353,7 @@ h6 {
 }
 
 #corporate{
-  background-image: url('images/corporate.png');
+  background-image: url('images/team/corporate.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -371,7 +361,7 @@ h6 {
 }
 
 #design{
-  background-image: url('images/design.png');
+  background-image: url('images/team/design.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -379,7 +369,7 @@ h6 {
 }
 
 #finance{
-  background-image: url('images/finance.png');
+  background-image: url('images/team/finance.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -387,7 +377,7 @@ h6 {
 }
 
 #iq{
-  background-image: url('images/iq.png');
+  background-image: url('images/team/iq.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -395,7 +385,7 @@ h6 {
 }
 
 #marketing{
-  background-image: url('images/marketing.png');
+  background-image: url('images/team/marketing.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -403,7 +393,7 @@ h6 {
 }
 
 #membership{
-  background-image: url('images/membership.png');
+  background-image: url('images/team/membership.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -411,7 +401,7 @@ h6 {
 }
 
 #tech{
-  background-image: url('images/tech.png');
+  background-image: url('images/team/tech.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -419,7 +409,7 @@ h6 {
 }
 
 #programming{
-  background-image: url('images/programming.png');
+  background-image: url('images/team/programming.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -427,7 +417,7 @@ h6 {
 }
 
 #presidents{
-  background-image: url('images/presidents.png');
+  background-image: url('images/team/presidents.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -435,7 +425,7 @@ h6 {
 }
 
 #vp{
-  background-image: url('images/vp.png');
+  background-image: url('images/team/vp.png');
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size:contain;
@@ -445,6 +435,43 @@ h6 {
 
 
 /*Image Text*/
+.overlay p{
+  font-size: 2.222vw;
+}
+
+.overlay h6{
+  font-size: 1.25vw;
+  background: linear-gradient(to right, #EBBF32 40%, #BD862B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background-color: #11111260;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .3s ease;
+}
+
+.overlay-text{
+  position: absolute;
+  width: 31.250vw;
+  /* top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  text-align: left;
+  padding: 3.472vw;
+}
+
+.quote:hover .overlay {
+  height: 100%;
+}
+
 .ptext .border{
   background: white;
   padding: 1.5%;
@@ -459,7 +486,14 @@ h6 {
   align-items: center;
   padding: 10px;
   position: relative;
+}
+
+.social-home{
   margin: 10%;
+}
+
+.social-footer{
+  margin: 0% 13% 2%;
 }
 
 .social img:hover, .button:hover{
@@ -543,25 +577,47 @@ h6 {
   margin: 0;
 }
 
+.row-collage{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0%;
+}
+
+.row-collage img{
+  width: 25.62vw;
+  height: auto;
+}
+
 .row{
-    width: 100%;
-    float: left;
-    margin: 0% 0%;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0%;
+}
+
+.row-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0%;
+  padding: 0% 17%;
 }
 
 .featicon{
-  width: 40%;
-  float: left;
+  width: 19.983vw;
+  height: auto;
   position: relative;
-  overflow: hidden;
-  margin: 0% 5%;
 }
 
-.iconbottom{
-  width: 40%;
-  float: left;
-  position: relative;
-  margin: 0% 30%;
+.featlogo{
+  max-width: 15.931vw;
+  max-height: 12vw;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .sponsorlinks{
@@ -570,22 +626,21 @@ h6 {
   float: left;
 }
 
-.quoteContainer{
-  width: 45%;
-  margin: 0% 2.5%;
-  float: left;
+.quote-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0%;
 }
 
 .quote{
-  width: 100%;
-  float: left;
-  margin: 3% 0%;
+  position: relative;
+  width: 38.194vw;
 }
 
-.quoteImage{
+.quote img{
   width: 100%;
-  float: left;
-  margin: 0% 0%;
+  height: auto;
 }
 
 .listLeft{
@@ -616,11 +671,11 @@ ul{
 }
 
 .upDiv{
-  padding-top: 5.665vh;
+  padding-top: 2.778vw;
 }
 
 .downDiv{
-  padding-bottom: 4.249vh;
+  padding-bottom: 2.083vw;
 }
 
 /*End Content Properties*/
@@ -628,17 +683,16 @@ ul{
 
 
 /*Footer Properties*/
-.footerlinks{
-  font-size: 2vw;
-}
 
-.footerlinks a:hover{
-  color: grey;
+.footerinfo{
+
 }
 
 .footerlogo{
-  width: 25%;
-  margin: 5% 37.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .link{
@@ -671,15 +725,28 @@ ul{
   background-attachment: fixed;
 }
 
+.section-collage{
+  background: linear-gradient(162.2deg, #111112 25.07%, #121B43 82.81%);
+  color: white;
+  padding: 2.5% 10%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section-collage h1{
+  padding: 0 10%;
+}
+
 .doubledark{
   background-color: white;
   color: black;
-  padding: 2.5% 20%;
+  padding: 2.5% 18.5%;
   overflow: auto;
 }
 
 .footer{
-  background-color: #121212;
+  background-color:#121B43;
   color: white;
   padding: 2.5% 20%;
   overflow: hidden;
@@ -766,6 +833,25 @@ table h2{
   body{
     font-size: 1vw;
   }
+
+  @keyframes Llight{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(12deg) translate(-3vw, -35.708vw) scale(0.4, 1.3);
+    }
+  }
+
+  @keyframes Rlight{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(-12deg) translate(3vw, -35.708vw) scale(0.4, 1.4);
+    }
+  }
+
   .herobanner{
     min-width: 30%;
     min-height: 30%;
@@ -783,7 +869,7 @@ table h2{
     max-width: 90%;
   }
 
-  .pimg1,.pimg2,.ambassadorhimg1{
+  .pimg2,.ambassadorhimg1{
     min-height: 30%;
   }
 
@@ -796,7 +882,10 @@ table h2{
     width:75%;
   }
 
-  .topnav a{display: none;}
+  .topnav a{
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -808,12 +897,18 @@ table h2{
     float: left;
   }
 
-  .featicon,.iconbottom{
+  .featicon{
     width: 100%;
     float: left;
     position: relative;
     margin: 0% 5%;
     overflow: hidden;
+  }
+
+  .featlogo{
+    max-width: 12vw;
+    max-height: 9vw;
+    width: auto;
   }
 
   .listLeft{
@@ -850,7 +945,7 @@ table h2{
       font-size: 1.667vw;
   }
 
-  .footer h6{
+  .footer h6,span{
       font-size: 3vw;
   }
 
@@ -866,7 +961,7 @@ table h2{
       font-size: 3vw;
   }
 
-  #hackATLLeadership, #corporate, #design, #finance, #iq, #marketing, #membership, #programming, #tech, #presidents, #vp, .pimg1, .pimg2, .hackatl2013,.hackatl2014,.hackatl2015,.hackatl2016,.hackatl2017,.hackatl2018,.hackatl2019,.hackatl2020,.hackatl2021{
+  #hackATLLeadership, #corporate, #design, #finance, #iq, #marketing, #membership, #programming, #tech, #presidents, #vp, .pimg2, .hackatl2013,.hackatl2014,.hackatl2015,.hackatl2016,.hackatl2017,.hackatl2018,.hackatl2019,.hackatl2020,.hackatl2021{
   background-attachment: local;
 }
 
@@ -883,7 +978,7 @@ table h2{
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
     transition: .5s;
   }
 
