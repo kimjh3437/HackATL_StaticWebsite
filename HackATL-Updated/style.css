@@ -752,13 +752,6 @@ ul{
   overflow: hidden;
 }
 
-.section-starry{
-  background-image:url("images/starrybackground.gif");
-  color: white;
-  padding: 2.5% 20%;
-  overflow: auto;
-}
-
 table{
   width: 60vw;
 }
